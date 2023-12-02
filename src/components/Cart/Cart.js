@@ -12,10 +12,12 @@ const Cart = (props) => {
   const hasItems = cartCtx.items.length > 0;
 
   const cartItemRemoveHandler = (id) => {
+    //Change code here afer fork
     cartCtx.removeItem(id);
   };
 
   const cartItemAddHandler = (item) => {
+    //Change code here afer fork
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
